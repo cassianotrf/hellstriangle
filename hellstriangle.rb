@@ -15,7 +15,8 @@ def multi_array_sum(a)
       #if yes we add the value 3 into sum
       sum = sum + a[i + 1][j]
     else
-       #else we add the value 5 into sum
+       #else we add the value 5 into sum and add 1 to j because we know on the next round the neighboors will be j and j + 1 
+       #to check who is bigger
      sum = sum + a[i + 1][j +1]
      j += 1
    end
@@ -27,7 +28,7 @@ end
 
 multi_array_sum(a)
 
-#If you wanna test, unmark the # till line 48
+#If you wanna test, unmark the # till line 42
 # def validate_multi_array_sum(a,answer)
 #   if multi_array_sum(a) == answer
 #     puts "Test done without errors"
