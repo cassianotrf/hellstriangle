@@ -63,4 +63,4 @@ Open your termnial to clone the repository locally:
 This program was developed in Ruby.
 
 # Tests
-For make the tests unmark the # from the function validate_multi_array_sum (line 37 till 48)
+For tests unmark the # from the function validate_multi_array_sum (line 37 till 48)
