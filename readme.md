@@ -6,11 +6,8 @@ Given a triangle of numbers, find the maximum total from top to bottom
 Example:
 
 6
-
 3 5
-
 9 7 1
-
 4 6 8 4
 
 In this triangle the maximum total is: ​ 6 + 5 + 7 + 8 = 26
@@ -38,3 +35,29 @@ We are interested in your solution considering:
 2. ​ Readability
 3. ​ Automated Tests
 4. ​ Execution Time
+
+
+# For getting start:
+
+Open your termnial to clone the repository locally:
+
+ $ git clone https://github.com/cassianotrf/hellstriangle
+ 
+- At the command prompt, access the folder of application:
+
+ $ cd hellstriangle
+ 
+ - For run the application:
+
+ $ ruby hellstriangle.rb
+ 
+- To edit or check the code (sublime editor)
+
+ $ stt
+ 
+# Implementation
+
+This program was developed in Ruby.
+
+# Tests
+For make the tests unmark the # from the function validate_multi_array_sum (line 37 till 48)
